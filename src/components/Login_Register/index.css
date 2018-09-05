@@ -1,0 +1,44 @@
+.loginBtn{
+    margin: 0.625rem 5%;
+    background-color: #4c69fc;
+    color: #ffffff;
+    border-radius: 0.125rem;
+    width: 90%;
+    height: 3.062rem;
+    border:none;
+    font-size: 1rem;
+}
+.login{
+    color: #797979;
+    margin-top: 3rem;
+}
+.loginRow{
+    border-bottom: 1px solid #c8c8c8;
+    height: 2.062rem;
+    align-items: center;
+    margin:1rem 2rem;
+}
+.loginTxt{
+    width:4rem;
+    display: inline-block;
+}
+.userInput{
+    border: none;
+    background-color: #f0f0f0;
+    height: 1.5rem;
+    font-size: 1rem;
+    width: 13rem;
+}
+.YZMInput{
+    width: 8rem;
+}
+.toRegister{
+    float: right;
+    margin-right: 4rem;
+    margin-bottom: 1rem;
+    color: #797979;
+    font-size: 0.8rem;
+}
+.verfiyDiv img{
+    float: right;
+}

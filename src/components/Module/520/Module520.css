@@ -1,0 +1,28 @@
+.moduleBody520{
+    position: fixed;
+    top:1rem;
+    z-index:1002;
+    width: 62%;
+    background-color: #ffffff;
+    text-align: center;
+    padding: 5% 5% 0 5%;
+    margin: 40% 14%;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.btnBody520 button{
+    font-size: 17px;
+    background-color: #ffa801;
+    color: #ffffff;
+    width: 125px;
+    margin-top: 1rem;
+    height:35px;
+    line-height: 35px;
+    border-radius: 5px;
+}
+.close520{
+    position: relative;
+    top:40px;
+    width:20px;
+    height:20px;
+}

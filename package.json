@@ -1,0 +1,27 @@
+{
+	"name": "chatBox",
+	"version": "0.1.0",
+	"private": true,
+	"dependencies": {
+		"antd": "^3.9.0",
+		"axios": "latest",
+		"babel-plugin-import": "^1.8.0",
+		"prop-types": "latest",
+		"qs": "^6.5.2",
+		"react": "^16.0.0",
+		"react-app-rewired": "^1.6.2",
+		"react-css-modules": "latest",
+		"react-dom": "^16.0.0",
+		"react-mobile-datepicker": "latest",
+		"react-redux": "latest",
+		"react-router": "^3.0.0",
+		"react-scripts": "1.0.14"
+	},
+	"scripts": {
+		"start": "react-app-rewired start",
+		"build": "react-app-rewired build",
+		"test": "react-scripts test --env=jsdom",
+		"eject": "react-scripts eject"
+	},
+	"homepage": "./"
+}

@@ -1,0 +1,26 @@
+.chatBox{
+    background: #ffffff;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 980px;
+    transform: translate(-50%, -50%);
+    color: #000000;
+    z-index: 999;
+    padding: 10px;
+}
+.closeBtn{
+    float: right;
+    padding: 5px;
+}
+.viewDetailContain{
+    height: 300px;
+    padding: 10px 20px;
+    overflow: scroll;
+    background: #f2f2f2;
+    margin: 10px 0;
+}
+.changeItem{
+    display: flex;
+    justify-content: center;
+}

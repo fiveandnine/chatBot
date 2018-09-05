@@ -1,0 +1,12 @@
+.height{
+    background: red;
+    padding:4px;
+}
+.middle{
+    background: yellow;
+    padding:4px;
+}
+.lower{
+    background: #1890ff;
+    padding:4px;
+}

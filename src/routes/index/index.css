@@ -1,0 +1,10 @@
+.home_contain{
+    padding: 10px 20px;
+}
+.home_title{
+    text-align: center;
+}
+.pagination{
+    margin: 10px;
+    float: right;
+}

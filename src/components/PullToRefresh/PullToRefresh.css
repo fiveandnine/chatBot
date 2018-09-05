@@ -1,0 +1,85 @@
+
+
+
+.tip {
+    height: .2rem;
+    margin-top: -.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: .05rem;
+}
+
+.refresh {
+    padding-right: .05rem;
+    width: .25rem;
+}
+
+.scroll_loading {
+    height: .44rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.scroll_desc {
+    height: .44rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .5rem;
+}
+
+.no_scrolling {
+    height: .44rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+
+.loading {
+    height: .44rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: .05rem;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-timing-function: ease;
+    animation-timing-function: ease;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: myRotate;
+    animation-name: myRotate;
+}
+
+
+@keyframes myRotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes myRotate {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+.loadingDIV{
+    color: #797979;
+    font-size: 0.8rem;
+}

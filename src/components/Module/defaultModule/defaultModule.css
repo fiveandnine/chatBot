@@ -1,0 +1,84 @@
+.shown{
+    /*display: none;*/
+    position: fixed;
+    top: 0;
+    left:0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #c8c8c8;
+    z-index:990;
+    -moz-opacity: 0.5;
+    opacity:.60;
+    filter: alpha(opacity=60);
+}
+.moduleBtn_0,.moduleBtn_1,.moduleBtn_2{
+    position: fixed;
+    top:1rem;
+    z-index:1002;
+    background-color: #282828;
+    width: 72%;
+    margin: 40% 14%;
+    border-radius: 5px;
+}
+.moduleBtn_0 div{
+    padding: 1rem;
+    color: #ffffff;
+    text-align: center;
+}
+.moduleBtn_1{
+    background-color: #ffffff;
+}
+.moduleBtn_1_div{
+    padding: 1rem;
+    text-align: center;
+}
+
+.moduleBtn_1 button{
+    width: 100%;
+    border-radius:0 0 5px 5px;
+    background-color: #ffffff;
+    border-top: 1px solid #c8c8c8;
+    height:2.5rem;
+    font-size: 1rem;
+    /*color: #4c69fc;*/
+    color: #ffa801;
+}
+.moduleBtn div{
+    padding: 1rem;
+    text-align: center;
+}
+.moduleBtn_2 div{
+    padding: 1rem;
+    border-radius:5px 5px 0 0;
+    text-align: center;
+    background-color: #ffffff;
+}
+.moduleBtn2_button1{
+    width: 50%;
+    border-radius:0 0 0 5px;
+    color: #797979;
+    background-color: #ffffff;
+    border-top: 1px solid #c8c8c8;
+    border-right: 1px solid #c8c8c8;
+    height:3rem;
+    font-size: 1rem;
+}
+.moduleBtn2_button2{
+    width: 50%;
+    border-radius:0 0 5px 0;
+    background-color: #ffffff;
+    /*color: #4c69fc;*/
+    color: #ffa801;
+    border-top: 1px solid #c8c8c8;
+    height:3rem;
+    font-size: 1rem;
+}
+.moduleBody{
+    padding: 10px;
+    font-size: 0.8rem;
+    margin-top: -1rem;
+    text-align: center;
+    min-height: 33px;
+}

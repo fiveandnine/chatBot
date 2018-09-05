@@ -1,0 +1,10 @@
+.detailsContain{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.title{
+    padding-top: 10px;
+    font-weight: bold;
+    border-bottom: 1px solid #000000;
+}
